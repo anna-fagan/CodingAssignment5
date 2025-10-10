@@ -15,62 +15,63 @@ body{
     font-family:"Montserrat", sans-serif;
     color:#023047;
     margin:0px;
-    border: double cornflowerblue;
+    /* border: double cornflowerblue; */
 }
 h1{
     text-align:center;
-    border: double cornflowerblue;
+    /* border: double cornflowerblue; */
 }
 
 h2{
     text-align:center;
     display:block;
-    border: double cornflowerblue;
+    /* border: double cornflowerblue; */
 }
 
 h3{
     text-align:left;
     padding:20px;
-    border: double cornflowerblue;
+    /* border: double cornflowerblue; */
 }
 
 p{
     background-color:#ade8f4;
     width:auto;
     padding:5px;
-    border: double cornflowerblue;
+    /* border: double cornflowerblue; */
 }
 figure{
     display:block;
-    border: double cornflowerblue;
+    /* border: double cornflowerblue; */
 }
 figcaption{
     background-color:#ade8f4;
     padding:10px;
     margin-top:10px;
     margin-bottom:10px;
-    border: double cornflowerblue;
+    /* border: double cornflowerblue; */
 }
 ul{
-    border: double cornflowerblue;
+    /* border: double cornflowerblue; */
 }
 li{
-    border: double cornflowerblue;
+    /* border: double cornflowerblue; */
 }
 ol{
-    border: double cornflowerblue;
+    /* border: double cornflowerblue; */
 }
 ol li{
     padding:10px;
 }
 div {
-    border: double cornflowerblue;
+    /* border: double cornflowerblue; */
 }
 input
 fieldset{
     background-color:#0077b6;
     float:right;
     display:inline-block;
+    padding:10px;
 }
 /*background:#5f3e25;*/
 #header{
@@ -94,13 +95,15 @@ fieldset{
     background-color: #0077b6;
     width:fit-content;
     padding:20px;
+    border-radius: 10px;
 }
 .block{
     background-color:#ade8f4;
     width:auto;
     height:auto;
-    margin:auto;
-    padding:10px;
+    margin:20px;
+    padding:5px;
+    border-radius: 10px;
 }
 #rating{
     background-color:#ade8f4;
@@ -108,6 +111,12 @@ fieldset{
     height:fit-content;
     margin:auto;
     text-align:center;
+    padding:15px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
 }
 .center-text{
     text-align:center;
@@ -116,4 +125,6 @@ fieldset{
     background: #0077b6;
     color: #0a9396;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    margin:10px;
+    border-radius: 10px;
 }
